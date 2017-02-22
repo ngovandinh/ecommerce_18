@@ -22,3 +22,10 @@
 en:
   hello: "Hello world"
   project_name: "project2"
+  max_size: 5
+  max_name: 50
+  max_address: 50
+  max_phone: 11
+  mini_number: 0
+  max_email: 255
+  mini_password: 6

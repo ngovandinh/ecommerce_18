@@ -41,3 +41,8 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 config/database.yml
+app/assets/images/*.png
+app/assets/images/*.jpg
+app/assets/images/*.gif
+vendor/customer
+vendor/admin
