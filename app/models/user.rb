@@ -6,17 +6,17 @@ class User < ActiveRecord::Base
   has_many :rates, dependent: :destroy
   has_many :requests, dependent: :destroy
 
-  validates :name, presence: true, length: {maximum: I18n.t("max_name").to_i}
+  validates :name, presence: true, length: {maximum: Settings.max_name}
   validates :email, presence: true,
-    length: {maximum: I18n.t("max_email").to_i},
+    length: {maximum: Settings.max_email},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-    length: {minimum: I18n.t("mini_password").to_i}, allow_nil: true
+    length: {minimum: Settings.mini_password}, allow_nil: true
 
   has_secure_password
 
   before_save :downcase_email
-  # Converts email to all lower-case.
+
   def downcase_email
    self.email = email.downcase
   end

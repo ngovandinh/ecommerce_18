@@ -22,10 +22,27 @@
 en:
   hello: "Hello world"
   project_name: "project2"
-  max_size: 5
-  max_name: 50
-  max_address: 50
-  max_phone: 11
-  mini_number: 0
-  max_email: 255
-  mini_password: 6
+  about: "About us"
+  termsandconditions: "Terms and conditions"
+  qaq: "FAQ"
+  contact: "Contact us"
+  getnew: "Get the news"
+  email: "Input your email!!!"
+  company: "2015 Your name goes here."
+  bootstrap: "Bootstrapious.com"
+  commit: "subcribed"
+  user_section: "User section"
+  already_customer: "Already our customer?"
+  try_this_app: "Lets try this app"
+  offer: "Offer of the day"
+  orders_off: "Get flat 35% off on orders over $50!"
+  not_registered: "Not registered yet?"
+  easy_access_comment: "! It is easy and done in 1&nbsp;minute and gives you access !"
+  item_carts: "3 items in cart"
+  toggle_search: "Toggle search"
+  more: "More Detail"
+  profile: "profile"
+  setting: "setting"
+  login: "login"
+  logout: "logout"
+  register: "registered"
